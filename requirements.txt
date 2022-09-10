@@ -10,6 +10,7 @@ dataclasses
 DateTime
 emoji==1.7.0
 fonttools
+git+https://github.com/Hobby-Dev-0/TeleModified
 geopy
 gitpython
 glitch_this
