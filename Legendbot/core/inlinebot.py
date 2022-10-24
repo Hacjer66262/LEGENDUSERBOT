@@ -614,7 +614,7 @@ async def inline_handler(event):  # sourcery no-metrics
             ]
             markup = event.client.build_reply_markup(buttons)
             photo = types.InputWebDocument(
-                url="https://i.imgur.com/Zg58iXc.jpg",
+                url="",
                 size=0,
                 mime_type="image/jpeg",
                 attributes=[],
@@ -639,7 +639,7 @@ async def inline_handler(event):  # sourcery no-metrics
             ]
             PM_IMG = (
                 gvarstatus("PM_IMG")
-                or "https://telegra.ph/file/69fa26f4659e377dea80e.jpg"
+                or "https://te.legra.ph/file/f5bdb679b636290a25857.jpg"
             )
             if PM_IMG == "OFF":
                 LEGEND_IMG = None
